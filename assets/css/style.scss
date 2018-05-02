@@ -1,9 +1,7 @@
 ---
 ---
 
-@import "{{ site.theme }}";
+$header-bg-color: #405d94;
+$header-bg-color-secondar: #0c163c;
 
-.page-header {
-    background-color: none;
-    background-image: linear-gradient(#0c163c, #22478cd9);
-}
+@import "{{ site.theme }}";
